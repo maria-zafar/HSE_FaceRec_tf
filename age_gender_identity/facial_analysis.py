@@ -45,7 +45,7 @@ class FacialImageProcessing:
             model_files[os.path.join(models_path,'age_gender_tf2_224_deep-03-0.13-0.97_new.pb')]='' #age_gender_tf2_224_deep_fn-01-0.15-0.98
             #model_files['D:/src_code/DNN_models/my_tf/age_gender_scratch-06-0.15-0.98.pb']=''
         elif use_sota:
-            model_files['D:/src_code/DNN_models/age_gender/vgg16gender.pb']='gender'
+            #model_files['D:/src_code/DNN_models/age_gender/vgg16gender.pb']='gender'
             model_files['D:/src_code/DNN_models/age_gender/vgg16age.pb']='age'
         else:
             model_files['D:/src_code/DNN_models/my_tf/gender_mobilenet224_02-0.92.pb']='gender'
